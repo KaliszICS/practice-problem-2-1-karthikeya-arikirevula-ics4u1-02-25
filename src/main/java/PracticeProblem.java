@@ -4,29 +4,29 @@ public class PracticeProblem {
 
 	}
 
-	public static int find(int[] arr, int num) {
-		for (int i = 0; i < arr.length; i++) {
-			if (arr[i] == num) {
+	public static int find(int[] array, int number) {
+		for (int i = 0; i < array.length; i++) {
+			if (array[i] == number) {
 				return i;
 			}
 		}
 		return -1;
 	}
 	
-	public static int findLast(String[] arr, String word) {
-		for (int i = arr.length - 1; i >= 0; i--) {
-			if (arr[i].equals(word)) {
+	public static int findLast(String[] array, String string) {
+		for (int i = array.length - 1; i >= 0; i--) {
+			if (array[i].equals(string)) {
 				return i;
 			}
 		}
 		return -1;
 	}
 
-	public static int findSecond(char[] arr, char letter) {
+	public static int findSecond(char[] array, char character) {
 		int counter = -1;
 		
-		for (int i = 0; i < arr.length; i++) {
-			if (arr[i] == letter) {
+		for (int i = 0; i < array.length; i++) {
+			if (array[i] == character) {
 				if (counter == -1) {
 					counter = i;
 				} else {

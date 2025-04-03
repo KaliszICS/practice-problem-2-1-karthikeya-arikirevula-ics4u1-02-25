@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: PracticeProblemTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 0.102 s <<< FAILURE! - in PracticeProblemTest
+findLastTest1  Time elapsed: 0.046 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findLastTest1(PracticeProblemTest.java:110)
+
+findLastTest2  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findLastTest2(PracticeProblemTest.java:128)
+
+findLastTest3  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findLastTest3(PracticeProblemTest.java:146)
+
+findLastTest4  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findLastTest4(PracticeProblemTest.java:164)
+
+findLastTest5  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findLastTest5(PracticeProblemTest.java:182)
+
+findTest1  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findTest1(PracticeProblemTest.java:20)
+
+findTest2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findTest2(PracticeProblemTest.java:38)
+
+findTest3  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findTest3(PracticeProblemTest.java:56)
+
+findTest4  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findTest4(PracticeProblemTest.java:74)
+
+findTest5  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findTest5(PracticeProblemTest.java:92)
+
+findSecondTest1  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findSecondTest1(PracticeProblemTest.java:200)
+
+findSecondTest2  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findSecondTest2(PracticeProblemTest.java:218)
+
+findSecondTest3  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findSecondTest3(PracticeProblemTest.java:236)
+
+findSecondTest4  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findSecondTest4(PracticeProblemTest.java:254)
+
+findSecondTest5  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findSecondTest5(PracticeProblemTest.java:272)
+

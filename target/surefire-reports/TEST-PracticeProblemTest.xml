@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="PracticeProblemTest" time="0.102" tests="15" errors="0" skipped="0" failures="15">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/workspaces/practice-problem-2-1-karthikeya-arikirevula-ics4u1-02-25/target/test-classes:/workspaces/practice-problem-2-1-karthikeya-arikirevula-ics4u1-02-25/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/opt/java/11.0.14/lib"/>
+    <property name="sun.java.command" value="/workspaces/practice-problem-2-1-karthikeya-arikirevula-ics4u1-02-25/target/surefire/surefirebooter1459214223775771168.jar /workspaces/practice-problem-2-1-karthikeya-arikirevula-ics4u1-02-25/target/surefire 2025-04-03T13-36-28_969-jvmRun1 surefire7988403856680584431tmp surefire_05680155947469619790tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/workspaces/practice-problem-2-1-karthikeya-arikirevula-ics4u1-02-25/target/test-classes:/workspaces/practice-problem-2-1-karthikeya-arikirevula-ics4u1-02-25/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/codespace"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-02-08"/>
+    <property name="java.home" value="/opt/java/11.0.14"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/workspaces/practice-problem-2-1-karthikeya-arikirevula-ics4u1-02-25"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/workspaces/practice-problem-2-1-karthikeya-arikirevula-ics4u1-02-25/target/surefire/surefirebooter1459214223775771168.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14.1+1-LTS"/>
+    <property name="user.name" value="codespace"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.8.0-1021-azure"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-31205"/>
+    <property name="localRepository" value="/home/codespace/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.14.1"/>
+    <property name="user.dir" value="/workspaces/practice-problem-2-1-karthikeya-arikirevula-ics4u1-02-25"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="11.0.14.1+1-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="findLastTest1" classname="PracticeProblemTest" time="0.046">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findLastTest1(PracticeProblemTest.java:110)
+</failure>
+    <system-err><![CDATA[Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findLastTest1()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findLastTest2()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findLastTest3()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findLastTest4()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findLastTest5()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findTest1()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findTest2()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findTest3()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findTest4()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findTest5()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findSecondTest1()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findSecondTest2()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findSecondTest3()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findSecondTest4()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findSecondTest5()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findLastTest1()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findLastTest2()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findLastTest3()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findLastTest4()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findLastTest5()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findTest1()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findTest2()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findTest3()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findTest4()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findTest5()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findSecondTest1()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findSecondTest2()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findSecondTest3()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findSecondTest4()] must be declared with a non-empty value.
+Apr 03, 2025 1:36:29 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.findSecondTest5()] must be declared with a non-empty value.
+]]></system-err>
+  </testcase>
+  <testcase name="findLastTest2" classname="PracticeProblemTest" time="0">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findLastTest2(PracticeProblemTest.java:128)
+</failure>
+  </testcase>
+  <testcase name="findLastTest3" classname="PracticeProblemTest" time="0.002">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findLastTest3(PracticeProblemTest.java:146)
+</failure>
+  </testcase>
+  <testcase name="findLastTest4" classname="PracticeProblemTest" time="0.001">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findLastTest4(PracticeProblemTest.java:164)
+</failure>
+  </testcase>
+  <testcase name="findLastTest5" classname="PracticeProblemTest" time="0">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findLastTest5(PracticeProblemTest.java:182)
+</failure>
+  </testcase>
+  <testcase name="findTest1" classname="PracticeProblemTest" time="0.005">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findTest1(PracticeProblemTest.java:20)
+</failure>
+  </testcase>
+  <testcase name="findTest2" classname="PracticeProblemTest" time="0.001">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findTest2(PracticeProblemTest.java:38)
+</failure>
+  </testcase>
+  <testcase name="findTest3" classname="PracticeProblemTest" time="0.004">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findTest3(PracticeProblemTest.java:56)
+</failure>
+  </testcase>
+  <testcase name="findTest4" classname="PracticeProblemTest" time="0.001">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findTest4(PracticeProblemTest.java:74)
+</failure>
+  </testcase>
+  <testcase name="findTest5" classname="PracticeProblemTest" time="0.003">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findTest5(PracticeProblemTest.java:92)
+</failure>
+  </testcase>
+  <testcase name="findSecondTest1" classname="PracticeProblemTest" time="0.003">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findSecondTest1(PracticeProblemTest.java:200)
+</failure>
+  </testcase>
+  <testcase name="findSecondTest2" classname="PracticeProblemTest" time="0">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findSecondTest2(PracticeProblemTest.java:218)
+</failure>
+  </testcase>
+  <testcase name="findSecondTest3" classname="PracticeProblemTest" time="0.002">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findSecondTest3(PracticeProblemTest.java:236)
+</failure>
+  </testcase>
+  <testcase name="findSecondTest4" classname="PracticeProblemTest" time="0">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findSecondTest4(PracticeProblemTest.java:254)
+</failure>
+  </testcase>
+  <testcase name="findSecondTest5" classname="PracticeProblemTest" time="0.001">
+    <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.findSecondTest5(PracticeProblemTest.java:272)
+</failure>
+  </testcase>
+</testsuite>
